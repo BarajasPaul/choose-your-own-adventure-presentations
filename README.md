@@ -8,7 +8,7 @@ This project also is the default WSGI application for the
 Here's a screenshot of the vanilla choices screen. You can of course modify
 this initial screen with your own styles and visualizations.
 
-<img src="./cyoa/static/img/cyoa-choices.jpg">
+<img src="./polix/static/img/polix-choices.jpg">
 
 The screenshot may not look like much at first. That's where your story and
 content come in. To see the potential of audience voting during a presentation
@@ -36,15 +36,15 @@ with [Matt Makai](https://twitter.com/mattmakai) and
 [Kate Heddleston](https://twitter.com/heddle317). 
 
 Here's how the screen looks initially.
-<img src="./cyoa/static/img/cyoa-no-votes.jpg">
+<img src="./polix/static/img/polix-no-votes.jpg">
 
 After votes start coming in...
-<img src="./cyoa/static/img/cyoa-choices.jpg">
+<img src="./polix/static/img/polix-choices.jpg">
 
 
 Here's an example screenshot I took from the DjangoCon talk with DjangoCon
 styling.
-<img src="./cyoa/static/img/djangocon.jpg">
+<img src="./polix/static/img/djangocon.jpg">
 
 
 

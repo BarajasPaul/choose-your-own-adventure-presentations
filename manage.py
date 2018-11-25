@@ -4,8 +4,8 @@ monkey.patch_all()
 import os
 import redis
 
-from cyoa import app, redis_db, socketio, db
-from cyoa.models import Wizard
+from polix import app, redis_db, socketio, db
+from polix.models import Wizard
 from flask.ext.script import Manager, Shell
 
 manager = Manager(app)

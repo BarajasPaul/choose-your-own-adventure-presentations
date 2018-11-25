@@ -1,2 +1,2 @@
 #!/bin/bash
-celery beat -A cyoa.celery
+celery beat -A polix.celery
