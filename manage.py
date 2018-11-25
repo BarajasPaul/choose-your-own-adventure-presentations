@@ -6,7 +6,7 @@ import redis
 
 from polix import app, redis_db, socketio, db
 from polix.models import Wizard
-from flask.ext.script import Manager, Shell
+from flask_script import Manager, Shell
 
 manager = Manager(app)
 
