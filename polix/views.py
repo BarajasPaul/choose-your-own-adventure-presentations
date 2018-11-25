@@ -5,7 +5,7 @@ from flask_login import login_user, logout_user, login_required, \
                             current_user
 from jinja2 import TemplateNotFound
 from twilio import twiml
-from twilio.rest import TwilioRestClient
+from twilio.rest import Client
 
 from .config import TWILIO_NUMBER
 from .forms import LoginForm
