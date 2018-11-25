@@ -4,8 +4,8 @@ from flask_socketio import SocketIO
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 
-from config import REDIS_SERVER, REDIS_PORT, REDIS_DB
-from utils import make_celery
+from .config import REDIS_SERVER, REDIS_PORT, REDIS_DB
+from .utils import make_celery
 
 
 app = Flask(__name__, static_url_path='/static')
