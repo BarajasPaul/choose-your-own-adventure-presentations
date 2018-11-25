@@ -1,8 +1,8 @@
 import redis
 from flask import Flask
-from flask.ext.socketio import SocketIO
-from flask.ext.login import LoginManager
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_socketio import SocketIO
+from flask_login import LoginManager
+from flask_sqlalchemy import SQLAlchemy
 
 from config import REDIS_SERVER, REDIS_PORT, REDIS_DB
 from utils import make_celery

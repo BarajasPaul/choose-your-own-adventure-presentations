@@ -1,5 +1,5 @@
-from flask.ext.socketio import emit
-from flask.ext.socketio import join_room, leave_room
+from flask_socketio import emit
+from flask_socketio import join_room, leave_room
 
 from . import socketio
 from .views import broadcast_vote_count

@@ -1,7 +1,7 @@
 import cgi
 from flask import render_template, abort, request
 from flask import redirect, url_for
-from flask.ext.login import login_user, logout_user, login_required, \
+from flask_login import login_user, logout_user, login_required, \
                             current_user
 from jinja2 import TemplateNotFound
 from twilio import twiml
